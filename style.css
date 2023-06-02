@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.hidden {
+  display: none !important;
+}
+h1 {
+  color: palegreen;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+  opacity: 1;
+}
+body.win {
+  overflow: hidden;
+}
